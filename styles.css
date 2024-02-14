@@ -1,7 +1,10 @@
+* {
+    font-family: Roboto;
+}
+
 header, footer {
     display: flex;
     justify-content: space-around;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1f2937;
 }
 
@@ -21,4 +24,32 @@ header, footer {
     align-items: center;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.image {
+    width: 50%;
+}
+
+.black-swan {
+    margin: 30px 30px 30px 30px;
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 48px;
+    color: #f9faf8;
+    height: 300px;
 }
