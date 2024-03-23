@@ -2,11 +2,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+#header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
 }
 
-p {
-    font-size: 24px;
-    color: #f9faf8;
+.header-logo {
+    margin: 10px;
+}
+
+#link-box {
+    display: flex;
+}
+
+.link {
+    margin: auto;
+    padding: 10px;
+    display: flex;
 }
